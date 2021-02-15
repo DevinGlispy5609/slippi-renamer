@@ -1,0 +1,1 @@
+Hey dawg, go ahead and drag that shitty app into the folder with the .slp files and then run it.

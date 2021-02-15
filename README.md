@@ -4,20 +4,23 @@ Rename Slippi (.slp) game files to include characters, tags, colors, and stage.
 
 **Singles:**
 ```
-Game_20190530T222709.slp -> 20190530T222709 - Marth (BRY) vs Fox (Default) - Battlefield.slp
+Game_20190530T222709.slp -> 20190530T222709 - Fox (Username, Color) beat Marth (Username, Color) at Dreamland N65.slp
 ```
 
 **Doubles:**
 ```
-Game_20190521T212659.slp -> 20190521T212659 - Falco (Red) & Marth (Default) vs Fox (DJ) & Fox (SWRV) - Yoshi's Story.slp
+Game_20190521T212659.slp -> 20190521T212659 - Falco (Username) & Marth (Username) beat Fox (Username) & Fox (Username) at Marth's Story.slp
 ```
 
 ## Setup
+If you'd perfer the CLI version of the app please follow these instructions 
 
 1. Install [Node.js][node].
 2. Download [slippi-renamer][download].
 3. Navigate to where slippi-renamer is downloaded in the terminal or Node.js console to using `cd`.
 4. Run `npm install`.
+
+Otherwise, I've included working packaged apps for Linux, MacOS, and Windows inside the READY_TO_GO folder 
 
 ## Usage
 
@@ -36,10 +39,11 @@ Options:
   -r         rename in subdirectories too                              [boolean]
   -h         Show help                                                 [boolean]
 
-You must provide directories to rename.
-```
 
 ## Changelog
+
+### 1.3.0
+- Changed to renaming proccess to include the winner of each game first noting that they "beat" the other player
 
 ### 1.2.2
 - Added `-r` flag to rename folders recursively.
@@ -61,7 +65,7 @@ You must provide directories to rename.
   - `-n` flag to run the script without performing any renaming.
 
 ## Authors
-
+* Devin "Frizzy" Glispy - Win based names and folder management
 * Max "DJSwerve" Timkovich
 * IvantheTricourne - additional bug fixes and enhancements.
 
